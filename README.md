@@ -24,7 +24,7 @@ Dokter dapat melakukan absen saat pelayanan rawat jalan dimulai.
 ---
 
 ### 2. **Absensi Jam Dinas**
-Digunakan untuk mencatat kehadiran dokter pada jam dinas reguler sesuai jadwal kerja.
+Mencatat kehadiran dokter pada jam dinas reguler sesuai jadwal kerja.
 
 ---
 
@@ -38,32 +38,31 @@ Dokter dapat mencatat kehadiran saat melakukan visit pasien rawat inap.
 ---
 
 ### 4. **Absensi Operasi**
-Digunakan oleh dokter yang bertugas dalam tindakan operasi.
+Absensi bagi dokter yang sedang bertugas dalam tindakan operasi.
 
 ---
 
 ### 5. **Tanpa Jam Masuk & Jam Pulang**
-Aplikasi tidak menggunakan jam masuk atau jam pulang.  
-Sistem hanya fokus menentukan apakah dokter **hadir atau tidak**.
+Sistem hanya menentukan **Hadir / Tidak Hadir** tanpa mekanisme jam masuk/pulang.
 
 ---
 
 ### 6. **Login Aman**
-Login menggunakan email dan password untuk menjaga keamanan data.
+Menggunakan email dan password untuk keamanan data.
 
 ---
 
 ### 7. **Fitur GPS Aktif**
-Koordinat lokasi dapat ditentukan untuk memastikan absensi hanya dilakukan di area yang valid.
+Mendukung penguncian absensi berdasarkan titik koordinat GPS.
 
 ---
 
 ## 🎯 Tujuan Aplikasi
-- Mempermudah rumah sakit/klinik dalam memantau kehadiran dokter.
+- Mempermudah monitoring kehadiran dokter.
 - Menghilangkan proses absensi manual.
-- Memberikan fleksibilitas untuk berbagai jenis absensi pelayanan.
-- Menyediakan data kehadiran yang akurat tanpa ketergantungan jam masuk/pulang.
-- Mendukung operasional harian rumah sakit dengan lebih efisien.
+- Mengadaptasi berbagai jenis absensi pelayanan.
+- Meningkatkan akurasi dan efisiensi operasional.
+- Menyesuaikan kebutuhan rumah sakit modern.
 
 <p align="center">
   <img width="700" src="https://github.com/user-attachments/assets/e78e0114-e24c-4b97-9906-1c2b143d013b" />
@@ -76,21 +75,43 @@ Koordinat lokasi dapat ditentukan untuk memastikan absensi hanya dilakukan di ar
 - **HTML / CSS / JavaScript**
 - **MySQL**
 - **GPS (HTML Geolocation)**
+- **Login aplikasi wiramuhammad16@gmail.com / 123456**
 
 ---
 
 ## 📝 Catatan
-Aplikasi FixTime dapat terus dikembangkan sesuai kebutuhan, seperti:
-- Integrasi laporan kehadiran otomatis
-- Dashboard admin lengkap
-- API untuk terhubung dengan SIMRS lainnya
-- Notifikasi real-time
+Aplikasi dapat terus dikembangkan seperti:
+- Dashboard admin lebih lengkap
+- Export laporan kehadiran
+- Integrasi SIMRS
+- API untuk mobile atau sistem lain
+
+---
+
+## ⚠️ Larangan
+
+Aplikasi ini **tidak untuk diperjualbelikan** dalam bentuk apa pun.
+
+- Tidak boleh dijual
+- Tidak boleh dikomersialkan
+- Tidak boleh diperdagangkan sebagai produk jadi
+
+Aplikasi ini hanya untuk **penggunaan pribadi, pendidikan, atau internal**.
+
+---
+
+## 🔒 Akses Database
+
+Struktur database **tidak disertakan di repository publik** dan hanya diberikan:
+
+➡️ **Melalui jalur japri (langsung)**  
+Silakan kontak developer untuk mendapatkan akses database atau penyesuaian schema.
 
 ---
 
 ## 📬 Kontak Pengembang
 
-Jika membutuhkan bantuan pengembangan, custom fitur, atau ingin bekerja sama, hubungi:
+Jika membutuhkan bantuan pengembangan, custom fitur, integrasi, atau dukungan teknis, hubungi:
 
 **👨‍💻 Developer:** M. Wira  
 **📱 WhatsApp:** 0821-7784-6209  
