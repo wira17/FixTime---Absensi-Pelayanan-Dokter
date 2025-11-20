@@ -1,10 +1,13 @@
 # FixTime — Aplikasi Absensi Dokter
 
-FixTime adalah aplikasi absensi khusus untuk dokter di rumah sakit/klinik yang dirancang untuk mempermudah proses pencatatan kehadiran tanpa menggunakan sistem jam masuk dan jam pulang. Aplikasi ini fokus pada status hadir/tidak hadir sesuai kebutuhan pelayanan medis.
+FixTime adalah aplikasi absensi khusus untuk dokter di rumah sakit atau klinik.  
+Aplikasi ini dirancang untuk mempermudah pencatatan kehadiran tanpa menggunakan sistem jam masuk dan jam pulang.  
+Fokus utama FixTime adalah menentukan status **Hadir / Tidak Hadir** sesuai jenis pelayanan medis.
 
-<img width="474" height="762" alt="Screen Shot 2025-11-20 at 10 49 07" src="https://github.com/user-attachments/assets/eec5c948-9fba-46cd-a4fc-29736db5ae37" />
-<img width="486" height="767" alt="Screen Shot 2025-11-20 at 10 49 15" src="https://github.com/user-attachments/assets/9a804fcb-f5b9-40b9-918a-c2055c332924" />
-
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/eec5c948-9fba-46cd-a4fc-29736db5ae37" />
+  <img width="300" src="https://github.com/user-attachments/assets/9a804fcb-f5b9-40b9-918a-c2055c332924" />
+</p>
 
 ---
 
@@ -13,24 +16,45 @@ FixTime adalah aplikasi absensi khusus untuk dokter di rumah sakit/klinik yang d
 ### 1. **Absensi Poli**
 Dokter dapat melakukan absen saat pelayanan rawat jalan dimulai.
 
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/e6294638-0057-4984-8547-c7fbd3ee20a4" />
+  <img width="300" src="https://github.com/user-attachments/assets/d8aa04de-7460-46e2-b45e-7ce134ee241b" />
+</p>
+
+---
+
 ### 2. **Absensi Jam Dinas**
 Digunakan untuk mencatat kehadiran dokter pada jam dinas reguler sesuai jadwal kerja.
+
+---
 
 ### 3. **Absensi Visit**
 Dokter dapat mencatat kehadiran saat melakukan visit pasien rawat inap.
 
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/e242f3fb-6373-4fbf-b67e-89357e181995" />
+</p>
+
+---
+
 ### 4. **Absensi Operasi**
-Absensi khusus bagi dokter yang bertugas dalam kegiatan operasi.
+Digunakan oleh dokter yang bertugas dalam tindakan operasi.
+
+---
 
 ### 5. **Tanpa Jam Masuk & Jam Pulang**
-Aplikasi tidak menggunakan mekanisme jam masuk/pulang.  
-Tujuannya hanya menghitung status **Hadir / Tidak Hadir**.
+Aplikasi tidak menggunakan jam masuk atau jam pulang.  
+Sistem hanya fokus menentukan apakah dokter **hadir atau tidak**.
+
+---
 
 ### 6. **Login Aman**
-Login menggunakan akun email dan password untuk meningkatkan keamanan sistem.
+Login menggunakan email dan password untuk menjaga keamanan data.
+
+---
 
 ### 7. **Fitur GPS Aktif**
-Aplikasi dapat dikonfigurasi menggunakan koordinat GPS untuk memastikan lokasi absensi dilakukan di area yang ditentukan.
+Koordinat lokasi dapat ditentukan untuk memastikan absensi hanya dilakukan di area yang valid.
 
 ---
 
@@ -38,24 +62,45 @@ Aplikasi dapat dikonfigurasi menggunakan koordinat GPS untuk memastikan lokasi a
 - Mempermudah rumah sakit/klinik dalam memantau kehadiran dokter.
 - Menghilangkan proses absensi manual.
 - Memberikan fleksibilitas untuk berbagai jenis absensi pelayanan.
-- Meningkatkan akurasi data kehadiran dokter tanpa ketergantungan jam kerja konvensional.
+- Menyediakan data kehadiran yang akurat tanpa ketergantungan jam masuk/pulang.
+- Mendukung operasional harian rumah sakit dengan lebih efisien.
+
+<p align="center">
+  <img width="700" src="https://github.com/user-attachments/assets/e78e0114-e24c-4b97-9906-1c2b143d013b" />
+</p>
 
 ---
 
 ## 🛠 Teknologi yang Digunakan
-- PHP
-- HTML/CSS/JS
-- MySQL
-- GPS (Geolocation)
+- **PHP**
+- **HTML / CSS / JavaScript**
+- **MySQL**
+- **GPS (HTML Geolocation)**
 
 ---
 
 ## 📝 Catatan
-Aplikasi ini dapat dikembangkan lebih lanjut sesuai kebutuhan seperti integrasi laporan, dashboard admin, atau API untuk sistem rumah sakit lainnya.
+Aplikasi FixTime dapat terus dikembangkan sesuai kebutuhan, seperti:
+- Integrasi laporan kehadiran otomatis
+- Dashboard admin lengkap
+- API untuk terhubung dengan SIMRS lainnya
+- Notifikasi real-time
 
 ---
 
 ## 📬 Kontak Pengembang
-Jika membutuhkan bantuan pengembangan atau penyesuaian fitur, silakan hubungi:
 
-**Developer:** Wira Muhammad  
+Jika membutuhkan bantuan pengembangan, custom fitur, atau ingin bekerja sama, hubungi:
+
+**👨‍💻 Developer:** M. Wira  
+**📱 WhatsApp:** 0821-7784-6209  
+
+---
+
+## 🤝 Dukung & Kontribusi
+
+Dukungan Anda sangat berarti untuk kelanjutan pengembangan aplikasi ini.
+
+**💳 BSI:** 7134197557 (M. Wira)
+
+---
