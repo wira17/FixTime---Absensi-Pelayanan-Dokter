@@ -1,7 +1,10 @@
 # FixTime — Aplikasi Absensi Dokter
 
 FixTime adalah aplikasi absensi khusus untuk dokter di rumah sakit/klinik yang dirancang untuk mempermudah proses pencatatan kehadiran tanpa menggunakan sistem jam masuk dan jam pulang. Aplikasi ini fokus pada status hadir/tidak hadir sesuai kebutuhan pelayanan medis.
+
 <img width="474" height="762" alt="Screen Shot 2025-11-20 at 10 49 07" src="https://github.com/user-attachments/assets/eec5c948-9fba-46cd-a4fc-29736db5ae37" />
+<img width="486" height="767" alt="Screen Shot 2025-11-20 at 10 49 15" src="https://github.com/user-attachments/assets/9a804fcb-f5b9-40b9-918a-c2055c332924" />
+
 
 ---
 
