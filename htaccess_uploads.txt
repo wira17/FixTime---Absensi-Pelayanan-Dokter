@@ -1,0 +1,35 @@
+# Keamanan folder uploads/absensi/
+# Hanya izinkan file gambar yang diakses
+
+# Nonaktifkan directory listing
+Options -Indexes
+
+# Hanya izinkan akses file .jpg, .jpeg, .png
+<FilesMatch "\.(jpg|jpeg|png)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Block semua file lain
+<FilesMatch "^.*$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Izinkan file gambar
+<FilesMatch "\.(jpg|jpeg|png)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Prevent script execution
+<FilesMatch "\.(php|phtml|php3|php4|php5|pl|py|jsp|asp|sh|cgi)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Set proper MIME types
+<IfModule mod_mime.c>
+    AddType image/jpeg .jpg .jpeg
+    AddType image/png .png
+</IfModule>
